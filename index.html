@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h2>Login to MyWeb</h2>
+
+    <form>
+      <div class="container">
+        <label class="labels" for="uname"><b>Username</b></label>
+        <input
+          class="inBox"
+          type="text"
+          placeholder="Enter registered email address"
+          name="uname"
+          required
+        />
+        <br />
+        <label class="labels" for="psw"><b>Password</b></label>
+        <input
+          class="inBox"
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          required
+        />
+        <br />
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember" /> Remember
+          me
+        </label>
+        <button id="register" type="submit">Register</button>
+        <br />
+      </div>
+    </form>
+  </body>
+</html>
